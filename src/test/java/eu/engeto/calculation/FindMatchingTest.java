@@ -17,7 +17,7 @@ public class FindMatchingTest {
         Assertions.assertEquals(expected, testResult);
 
     }
-
+    @Test
     public void findMatching2() {
         Double testResult = FindingMatching.findMatching(List.of(12.0, 8.126, 9.0, 158.0, 6.0), 8.0, 10.0);
         Double expected = 8.126;
